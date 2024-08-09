@@ -1,0 +1,70 @@
+h1{
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+
+/* CUANDO PASAMOS EL MOUSE POR ARRIBA DEL ELEMENTO*/
+h1:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* MIENTRAS SE CLICKEE EL ELEMENTO*/
+h1:active{
+    background-color: #999;
+    color: #fff;
+}
+
+/* SELECCIONA EL PRIMER ELEMENTO*/
+li:first-child{
+    color: #f00;
+}
+
+/* SELECCIONA EL N-ESIMO ELEMENTO*/
+li:nth-child(2n){
+    color: #0f0;
+}
+
+/* SELECCIONA EL ULTIMO ELEMENTO*/
+li:last-child{
+    color:#00f
+}
+
+/* EXCLUYE ELEMENTOS*/
+.lista li:not(.excluido){
+    color: #f00;
+}
+
+div{
+    border: 2px solid black;
+}
+
+/* SELECCIONA ELEMENTOS VACIOS UNICAMENTE*/
+div:empty{
+    border: none;
+}
+
+input[type="checkbox"]{
+    margin: 50px;
+}
+
+/* SELECCIONA UN ELEMENTO CHEQUEADO*/
+input[type="checkbox"]:checked{
+    margin: 0;
+}
+
+/* SELECCIONAR UN ENLACE NO VISITADO*/
+a:link{
+    color: #f00;
+}
+
+/* SELECCIONAR UN ENLACE VISITADO*/
+a:visited{
+    color: #0f0;
+}
+
+input:invalid{
+    color: red;
+}

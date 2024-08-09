@@ -1,0 +1,37 @@
+div{
+    padding: 20px;
+}
+
+h1::first-letter{
+    color: red;
+    font-size: 3em;
+    letter-spacing: -6px;
+}
+
+div::first-line{
+    color: red;
+    font-weight: bold   ;
+}
+
+p::selection{
+    background-color: #43f;
+    color: whitesmoke;
+}
+
+input::placeholder{
+    color: green;
+}
+
+li::marker{
+    color: aqua;
+}
+
+li::before{
+    content: "Texto anterior... ";
+    color: blue;
+}
+
+li::after{
+    content: " ...Texto posterior";
+    color: blue;
+}

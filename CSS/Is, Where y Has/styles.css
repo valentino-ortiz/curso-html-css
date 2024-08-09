@@ -1,0 +1,19 @@
+section .elemento1, section .elemento2, section elemento3{
+    color: red;
+}
+
+section :is(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+section:has(.elemento1){
+    background-color: aquamarine;
+}
+
+label:has(input:valid){
+    color: #0f0;
+}
+
+label:has(input:invalid){
+    color: #f00;
+}

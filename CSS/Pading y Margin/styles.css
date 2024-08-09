@@ -1,0 +1,25 @@
+.formulario{
+    background: whitesmoke;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px; */
+    /* padding: 10px 0 40px 20px; */
+    /* padding: 10px 50px; */
+}
+
+.formulario_input{
+    padding: 9px 12px;
+    margin: 10px;
+    width: 90%;
+    background: blanchedalmond;
+    color: black;
+}
+
+.formulario_sumbit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: beige;
+    color: black;
+    width: 50%;
+}

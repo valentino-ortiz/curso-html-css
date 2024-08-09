@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(6, 169, 223) ;
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    /* background: linear-gradient(to right,transparent,#fffc); */
+    background: linear-gradient(transparent,#fffc);
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid rgb(26, 98, 213) ;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+img{
+    width: 300px;
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column-reverse;
+    direction: ltr;
+}
+
+.flex-item{
+    width: 180px;
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+    background-color: rgb(212, 24, 24);
+    text-align: center;
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+}
+
+.flex-item:last-child{
+    background-color: rgb(108, 4, 4);
+}

@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.contenedor{
+    border: 2px solid #000;
+    margin: 30px 50px;
+    font-family: sans-serif;
+    background-color: #fff;
+    position: relative;
+    height: 300px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #ca7;
+    color: #fff;
+}
+
+.box--blue{
+    background-color: #37d;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+.box--purple{
+    background-color: #e53;
+    position: relative;
+    bottom: 20px;
+}

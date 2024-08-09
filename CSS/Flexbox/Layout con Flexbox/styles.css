@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f80;
+    color: #fff;
+}
+
+
+/* --- HEADER SECTION --- */
+
+.header{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url(https://ada13.tech/img/venue-gallery/8.jpg);
+    background-size: cover ;
+    display: flex;
+}
+
+.header__overlay{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f808;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__item-container{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    max-width: 450px;
+}
+
+.header__item-container p{
+    font-size: 10px;
+    text-wrap: pretty;
+    margin-bottom:30px ;
+}
+
+.header__img{
+    min-width: 150px;
+    max-width: 20%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 50px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    margin: 0;
+    font-size: 2.5em;
+    text-wrap: balance;
+}
+
+/* --- NAVBAR SECTION --- */
+
+.nav{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4px 15px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 15px;
+    box-shadow: 0 0 25px #0006;
+}
+
+.nav__ul{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav__item{
+    list-style: none;
+}
+
+.nav__logo-container{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav__ul-container{
+    flex-grow: 4;
+}
+
+.nav__link{
+    color: #f80;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 0;
+    transition: background-color 0.2s, border-radius 0.24s, outline 0.2s, outline-offset 0.2s;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.nav__link:hover{
+    background-color: #f803;
+    border-radius: 20px;
+    outline: 1px solid #f806;
+}
+
+
+.link--login{
+    background-color: #f80;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.link--login:hover{
+    background-color: rgb(208, 98, 1);
+
+}
+
+.nav__logo{
+    width: 70px;
+}
+
+/* ---MAIN SECTION--- */
+
+main{
+    max-width: 500px;
+    margin: auto;
+    text-align: justify;
+}
