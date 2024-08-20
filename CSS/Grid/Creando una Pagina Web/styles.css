@@ -1,0 +1,14 @@
+/* Colores que vamos a utilizar:
+#4488ee
+#e2eaff
+#18233f */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+    background-color: #e2eaff;
+}

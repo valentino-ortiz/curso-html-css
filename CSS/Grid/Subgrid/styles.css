@@ -21,9 +21,28 @@ div, body{
 }
 
 .grid-item:first-child{
-    background-color: #e66;
-    align-self: stretch;
+    grid-area: 1/1/span 2/span 2;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    gap: 10px;
+    padding: 0;
+    background-color: transparent;
 }
+
+.subgrid_item{
+    background-color: #e66;
+    padding: 20px;
+    border-radius: 18px;
+    text-align: center;
+    width: 400px;
+}
+
+.subgrid_item:first-child{
+    order: 2;
+    background-color: #4a4;
+}
+
 
 .grid-item{
     background-color: #48e;
@@ -33,7 +52,6 @@ div, body{
     max-width: 100%; 
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 
